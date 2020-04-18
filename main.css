@@ -1,0 +1,96 @@
+body{
+  background:url(./images/classic-blue.jpg) no-repeat center fixed;
+  background-size: cover;
+  
+}
+
+.avatar {
+    border-radius: 360px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid mediumturquoise;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .title .position {
+    color: rgb(65, 62, 62);
+  }
+  
+  .title .name {
+    font-weight: bold;
+    margin-bottom: 3px;
+    padding-bottom: 3px;
+    color: #272626;
+  }
+  
+  .about {
+    font-size: 14px;
+    text-align: center;
+    color: rgb(97, 99, 97);
+    line-height: 1.5;
+    max-width: 80%;
+  }
+  
+  #about-content,
+  #bio-content {
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  h2
+{    margin: 7px;
+
+} 
+ .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+      background: rgba(196, 196, 196, 0.28);
+    padding: 24px;
+    max-width:  500px;
+    margin: 0 auto;
+    
+  }
+  .contact-form {
+    background: white;
+    border: 1px solid lightslategray;
+    padding: 16px;
+    width: 465px;
+  }
+  
+  input,
+  textarea {
+    width: 250px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 2px;
+    padding: 8px 2px;
+  }
+  
+  .input-item * {
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  button {
+    padding: 8px;
+    background:#8d8d8d;
+    border: none;
+    color: #000000;
+    border-radius: 2px;
+  }
+  
